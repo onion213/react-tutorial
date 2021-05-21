@@ -1,7 +1,12 @@
 'use strict';
 
-ReactDOM.render(React.createElement(
+var name = 'onion';
+var element = React.createElement(
     'h1',
     null,
-    'Hello, world!'
-), document.getElementById('app'));
+    'Hello, ',
+    name,
+    '!'
+);
+
+ReactDOM.render(element, document.getElementById('app'));
