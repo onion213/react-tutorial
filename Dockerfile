@@ -5,3 +5,4 @@ RUN apt-get update && apt-get install -y \
     tzdata \
     nodejs \
     npm
+RUN npm install --save-dev babel-cli babel-preset-react babel-preset-es2015
